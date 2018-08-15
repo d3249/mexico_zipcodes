@@ -73,6 +73,8 @@ This is what we know on the content:
 With this, the script generates the basic catalogs (Settlement type, City, State) and the compound ones
 (Zip code - City, District - State and Settlement - Zip Code - Settlement type - District) all in CODIGOS_POSTALES.sql file
 
+> Generated script takes 3+ hours to run on  Acer aspire A-515 con MariaDB en Arch Linux
+
 **TODO**:
     Split structure and inserts scripts
     Cleanup the script code
