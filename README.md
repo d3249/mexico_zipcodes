@@ -37,8 +37,8 @@ script CODIGOS_POSTALES.sql
 > El script generado tarda 3+ horas en ejecturase en una computadora Acer aspire A-515 con MariaDB en Arch Linux
 
 **Pendientes**:
-    Separar los scripts de estructura y de insersión de datos
-    Optimizar el script
+    * Separar los scripts de estructura y de insersión de datos
+    * Optimizar el script
 
 Si vas a usar esta base de datos, considera descargar el archivo diréctamente del sitio para que esté actualizado.
 
@@ -76,7 +76,7 @@ With this, the script generates the basic catalogs (Settlement type, City, State
 > Generated script takes 3+ hours to run on  Acer aspire A-515 con MariaDB en Arch Linux
 
 **TODO**:
-    Split structure and inserts scripts
-    Cleanup the script code
+    * Split structure and inserts scripts
+    * Cleanup the script code
 
 If you're using this data base, consider to download the file from the site in order to be updated.
