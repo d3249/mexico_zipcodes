@@ -31,7 +31,7 @@ Esto es lo que se sabe sobre los datos contenidos:
 
 
 Con esto, el script genera los catálogos básicos (Tipo de asentamiento, Ciudad, Estado) y compuestos
-(Código Postal - Ciudad, Municipio - Estado y Asentamiento - Código Postal - Tipo Asentamiento - Municipio) en el
+(Municipio - Estado y Asentamiento - Código Postal - Tipo Asentamiento - Municipio - Ciudad) en el
 script CODIGOS_POSTALES.sql
 
 > El script generado tarda 3+ horas en ejecturase en una computadora Acer aspire A-515 con MariaDB en Arch Linux
@@ -71,7 +71,7 @@ This is what we know on the content:
 
 
 With this, the script generates the basic catalogs (Settlement type, City, State) and the compound ones
-(Zip code - City, District - State and Settlement - Zip Code - Settlement type - District) all in CODIGOS_POSTALES.sql file
+(District - State and Settlement - Zip Code - Settlement type - District - City) all in CODIGOS_POSTALES.sql file
 
 > Generated script takes 3+ hours to run on  Acer aspire A-515 con MariaDB en Arch Linux
 
