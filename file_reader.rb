@@ -42,7 +42,7 @@ module Zipcodes
         lasts[3] = load_if_different(@@states           , elements[4]              , lasts[3])
         lasts[4] = load_if_different(@@cities           , elements[5]              , lasts[4])
         
-        @@settlements << [elements[1], elements[0], elements[2], elements[3], elements[5]]
+        @@settlements << [elements[1], elements[0], elements[2], elements[3], elements[5], elements[4]]
 
         lasts
     end

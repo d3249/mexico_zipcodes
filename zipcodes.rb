@@ -31,9 +31,7 @@ module Zipcodes
 
         read_file file
         print_summary_info
-        #write_output_file
-       
-        @@municipalities_map
+        write_output_file
     end
 
     def read_file file
@@ -51,17 +49,6 @@ module Zipcodes
     end
 
 
-    def write_output_file
-        reset_file @@sql_file_name
-
-        build_simple_table('estado', @@states, @@states_map)
-        build_simple_table('tipo_asentamiento', @@settlement_types, @@settlement_types_map)
-        build_simple_table('ciudad', @@cities, @@cities_map)
-
-        build_child_table('municipio', @@municipalities, @@municipalities_map, 'estado', @@states_map)
-        
-        build_settlement_table
-    end
 
 
 end
