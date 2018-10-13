@@ -76,4 +76,3 @@ With this, the script generates the basic catalogs (Settlement type, City, State
   * Split structure and inserts scripts
 
 If you're using this data base, consider to download the file from the site in order to be updated.
-jkk
