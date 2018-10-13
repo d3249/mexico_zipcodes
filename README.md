@@ -8,7 +8,7 @@ SEPOMEX (Servicio Postal Mexicano) en su sitio http://sepomex.gob.mx/lservicios/
 
 Dicho sitio facilita un archivo TXT (texto plano separado por pipes), en MS Excel (xls) y XML.
 
-Este script toma como entrada el archivo en formato TXT y genera un script SQL.
+Este script toma como entrada el archivo en formato TXT y genera un script para MariaDB.
 
 El catálogo completo consta de más de 145,000 asentamientos, así que una inspección detallada para
 la normalización de la base de datos es complicada.
@@ -34,11 +34,9 @@ Con esto, el script genera los catálogos básicos (Tipo de asentamiento, Ciudad
 (Municipio - Estado y Asentamiento - Código Postal - Tipo Asentamiento - Municipio - Ciudad) en el
 script CODIGOS_POSTALES.sql
 
-> El script generado tarda 3+ horas en ejecturase en una computadora Acer aspire A-515 con MariaDB en Arch Linux
 
 **Pendientes**:  
   * Separar los scripts de estructura y de insersión de datos
-  * Optimizar el script
 
 Si vas a usar esta base de datos, considera descargar el archivo diréctamente del sitio para que esté actualizado.
 
@@ -48,7 +46,7 @@ http://sepomex.gob.mx/lservicios/servicios/CodigoPostal_Exportar.aspx
 
 The given site can generate a TXT file (plain text separated by pipes), MS Excel file (xls) and XML file.
 
-This script uses the TXT file to generate an SQL script.
+This script uses the TXT file to generate a MariaDB script.
 
 The full catalog contempts more than 145,000 settlements, so any in-detail analysis is hard.
 
@@ -73,11 +71,9 @@ This is what we know on the content:
 With this, the script generates the basic catalogs (Settlement type, City, State) and the compound ones
 (District - State and Settlement - Zip Code - Settlement type - District - City) all in CODIGOS_POSTALES.sql file
 
-> Generated script takes 3+ hours to run on  Acer aspire A-515 con MariaDB en Arch Linux
 
 **TODO**:  
   * Split structure and inserts scripts
-  * Cleanup the script code
 
 If you're using this data base, consider to download the file from the site in order to be updated.
 jkk
