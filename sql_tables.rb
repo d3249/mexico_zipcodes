@@ -74,7 +74,7 @@ END_HERE
                 fk_mu = @@municipalities_map[element[@@MUNICIPALITY_ARRAY]][state_key]
                 fk_ci= @@cities_map[element[@@CITY_ARRAY]] || "NULL"
 
-                file << "(#{index  + 1}, '#{asentamiento}', #{cp}, #{fk_st}, #{fk_mu}, #{fk_ci})"
+                file << "(#{index  + 1}, '#{asentamiento}', '#{cp}', #{fk_st}, #{fk_mu}, #{fk_ci})"
                 next_line(file, index, last_index)
             end
 
