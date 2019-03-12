@@ -4,7 +4,7 @@
 > English version of this documentation below
 
 Este repositorio contiene todos los códigos postales de México como los proporciona
-SEPOMEX (Servicio Postal Mexicano) en su sitio http://sepomex.gob.mx/lservicios/servicios/CodigoPostal_Exportar.aspx
+SEPOMEX (Servicio Postal Mexicano) en su sitio https://www.correosdemexico.gob.mx/SSLServicios/ConsultaCP/CodigoPostal_Exportar.aspx 
 
 Dicho sitio facilita un archivo TXT (texto plano separado por pipes), en MS Excel (xls) y XML.
 
@@ -42,7 +42,8 @@ Si vas a usar esta base de datos, considera descargar el archivo diréctamente d
 
 ### English
 This repository contains every zip code in Mexico as provided by SEPOMEX (Mexican Postal Service) on the site
-http://sepomex.gob.mx/lservicios/servicios/CodigoPostal_Exportar.aspx
+https://www.correosdemexico.gob.mx/SSLServicios/ConsultaCP/CodigoPostal_Exportar.aspx 
+
 
 The given site can generate a TXT file (plain text separated by pipes), MS Excel file (xls) and XML file.
 
